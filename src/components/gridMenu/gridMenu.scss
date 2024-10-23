@@ -1,0 +1,60 @@
+.grid-menu {
+  padding: 10px;
+  border: 1px solid #041e42;
+  border-radius: 5px;
+  text-align: center;
+
+  .level-list {
+    display: flex;
+    flex-direction: column;
+
+    .level-list-btn {
+      margin-bottom: 5px;
+      border-radius: 3px;
+      border: none;
+      color: #ffffff;
+      height: 25px;
+      width: 200px;
+      background-color: #808080;
+      font-weight: 700;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #696969;
+      }
+
+      &.active {
+        background-color: #696969;
+      }
+    }
+  }
+
+  .level-editor {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      margin-bottom: 5px;
+      height: 20px;
+    }
+  }
+
+  .play-btn {
+    width: 200px;
+    height: 25px;
+    background-color: #72a0c1;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #002d62;
+    }
+  }
+
+  p {
+    margin: 5px 0 5px 0;
+  }
+}
